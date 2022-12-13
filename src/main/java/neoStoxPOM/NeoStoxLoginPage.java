@@ -25,6 +25,5 @@ public void ClickOnSingInButton(WebDriver driver)
 	NewUtility.wait(driver,1000);
 	SingInButtons.click();
 	Reporter.log("Clicing on SingIn Buttons",true);
-	
 }
 }
