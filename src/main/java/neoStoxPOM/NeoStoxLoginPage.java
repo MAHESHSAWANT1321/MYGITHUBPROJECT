@@ -10,8 +10,6 @@ public class NeoStoxLoginPage
 {
 @FindBy(id = "MainContent_signinsignup_txt_mobilenumber") private WebElement MobileNumField;
 @FindBy(xpath ="(//a[text()='Sign In'])[2]") private WebElement SingInButtons;
-
-
 public NeoStoxLoginPage(WebDriver driver)
 {
 PageFactory.initElements(driver,this);	
