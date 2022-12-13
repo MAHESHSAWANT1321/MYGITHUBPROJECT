@@ -22,9 +22,6 @@ public void  sendMobileNum(WebDriver driver,String mobNum)
 	MobileNumField.sendKeys(mobNum);
 	Reporter.log("Entering Mobile Number",true);
 }
-
-
-
 public void ClickOnSingInButton(WebDriver driver)
 {
 	NewUtility.wait(driver,1000);
