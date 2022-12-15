@@ -17,12 +17,6 @@ public class NewBase1
 		driver.get(NewUtility.readDataFromPropertyFile("URL"));
 		Reporter.log("Launching Browser...",true);
 		Thread.sleep(3000);
-
-	
-	
-	
-	
-	
-	}
+		}
 
 }
