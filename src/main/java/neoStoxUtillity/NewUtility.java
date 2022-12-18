@@ -25,7 +25,6 @@ public class NewUtility
 	//Create Object Of Properties Class
 Properties prop=new Properties();
 //Create Object Of FileInputStream and Propeties file path as a Parameter
-	
 FileInputStream myfile =new FileInputStream("C:\\Users\\HP\\eclipse-workspace\\MY_PROJECTS\\NeoStoxNew_.properties");
 prop.load(myfile);
 String value = prop.getProperty(key);
@@ -39,13 +38,11 @@ return value;
 	js.executeScript("arguments[0].scrollIntoView(true)",element);
     Reporter.log("Scrolling Into View",true);
 	}
-	
 	public static void wait(WebDriver driver , int waitTime)
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		Reporter.log("Waiting For"+waitTime+"ms",true);
 	}
-	
 	public static void screenshot(WebDriver driver,String screenShotName) throws IOException
 	{
 		wait(driver,500);

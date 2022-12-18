@@ -167,12 +167,12 @@
       <![CDATA[Closing Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-03T05:19:03 GMT-04:00" name="Default suite" finished-at="2022-12-03T05:19:51 GMT-04:00" duration-ms="47995">
+  <suite started-at="2022-12-13T11:16:00 GMT-04:00" name="Default suite" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="47941">
     <groups>
     </groups>
-    <test started-at="2022-12-03T05:19:03 GMT-04:00" name="Default test" finished-at="2022-12-03T05:19:51 GMT-04:00" duration-ms="47995">
+    <test started-at="2022-12-13T11:16:00 GMT-04:00" name="Default test" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="47941">
       <class name="neoStoxTest.NeoStoxValidateMultipleTestCases3">
-        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:03 GMT-04:00" name="launchNeoStox" finished-at="2022-12-03T05:19:14 GMT-04:00" duration-ms="10567" status="PASS">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:00 GMT-04:00" name="launchNeoStox" finished-at="2022-12-13T11:16:12 GMT-04:00" duration-ms="11368" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ReadingURLfrom property file]]>
@@ -182,7 +182,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchNeoStox -->
-        <test-method is-config="true" signature="loginIntoNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:14 GMT-04:00" name="loginIntoNeoStox" finished-at="2022-12-03T05:19:35 GMT-04:00" duration-ms="21659" status="PASS">
+        <test-method is-config="true" signature="loginIntoNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:12 GMT-04:00" name="loginIntoNeoStox" finished-at="2022-12-13T11:16:32 GMT-04:00" duration-ms="20743" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting For1000ms]]>
@@ -243,7 +243,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginIntoNeoStox -->
-        <test-method signature="validateAccBalance()[pri:-1, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:35 GMT-04:00" name="validateAccBalance" finished-at="2022-12-03T05:19:36 GMT-04:00" duration-ms="1073" status="FAIL">
+        <test-method signature="validateAccBalance()[pri:-1, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:32 GMT-04:00" name="validateAccBalance" finished-at="2022-12-13T11:16:34 GMT-04:00" duration-ms="1071" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -303,7 +303,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- validateAccBalance -->
-        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:37 GMT-04:00" name="logOutFromNeoStox" finished-at="2022-12-03T05:19:37 GMT-04:00" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:34 GMT-04:00" name="logOutFromNeoStox" finished-at="2022-12-13T11:16:34 GMT-04:00" duration-ms="182" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting For1000ms]]>
@@ -316,7 +316,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromNeoStox -->
-        <test-method is-config="true" signature="loginIntoNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:37 GMT-04:00" name="loginIntoNeoStox" finished-at="2022-12-03T05:19:50 GMT-04:00" duration-ms="13530" status="PASS">
+        <test-method is-config="true" signature="loginIntoNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:34 GMT-04:00" name="loginIntoNeoStox" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="13777" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting For1000ms]]>
@@ -368,7 +368,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- loginIntoNeoStox -->
-        <test-method signature="userID()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:50 GMT-04:00" name="userID" finished-at="2022-12-03T05:19:51 GMT-04:00" duration-ms="58" status="PASS">
+        <test-method signature="userID()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:48 GMT-04:00" name="userID" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="46" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting For2000ms]]>
@@ -387,7 +387,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- userID -->
-        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:51 GMT-04:00" name="logOutFromNeoStox" finished-at="2022-12-03T05:19:51 GMT-04:00" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:48 GMT-04:00" name="logOutFromNeoStox" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="201" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting For1000ms]]>
@@ -400,7 +400,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromNeoStox -->
-        <test-method is-config="true" signature="closwBrowser()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-03T05:19:51 GMT-04:00" name="closwBrowser" finished-at="2022-12-03T05:19:51 GMT-04:00" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="closwBrowser()[pri:0, instance:neoStoxTest.NeoStoxValidateMultipleTestCases3@5fdcaa40]" started-at="2022-12-13T11:16:48 GMT-04:00" name="closwBrowser" finished-at="2022-12-13T11:16:48 GMT-04:00" duration-ms="220" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing Browser]]>
