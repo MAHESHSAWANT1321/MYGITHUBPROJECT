@@ -26,6 +26,9 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 	NeoStoxSinginPage Singin;
 	
 	
+	
+	
+	
 	@BeforeClass
 	public void launchNeoStox() throws InterruptedException, IOException
 	{
