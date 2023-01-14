@@ -26,6 +26,9 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 	NeoStoxSinginPage Singin;
 	
 	
+	
+	
+	
 	@BeforeClass
 	public void launchNeoStox() throws InterruptedException, IOException
 	{
@@ -55,6 +58,10 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 		home.handelPopUp(driver);
 		NewUtility.wait(driver, 1000);
 		}
+	
+	
+	
+	
 	
 	
 @Test
