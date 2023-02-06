@@ -33,8 +33,6 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 	home=new NeoStoxHomePage(driver);
 	Singin=new NeoStoxSinginPage(driver);
 	}
-	
-	
 	@BeforeMethod
 	public void  loginIntoNeoStox() throws EncryptedDocumentException, IOException, InterruptedException 
 	
