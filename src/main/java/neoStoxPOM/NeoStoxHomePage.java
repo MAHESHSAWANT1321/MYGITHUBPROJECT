@@ -11,7 +11,7 @@ public class NeoStoxHomePage
 {
 @FindBy(xpath = "(//a[text()='OK'])[2]") private WebElement OkButtons;
 @FindBy(xpath = "(//a[text()='Close'])[5]") private WebElement CloseButtons;
-@FindBy(id = "lbl_username") private WebElement UserName;
+@FindBy(id = "navbarDropdown") private WebElement UserName;
 @FindBy(id = "lbl_curbalancetop") private WebElement AccBalance;
 @FindBy(xpath = "//span[text()='Logout']") private WebElement LogOutButton;
 public NeoStoxHomePage(WebDriver driver)

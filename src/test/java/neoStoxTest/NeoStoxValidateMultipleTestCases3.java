@@ -24,8 +24,6 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 	NeoStoxPasswordPage password;
 	NeoStoxHomePage home;
 	NeoStoxSinginPage Singin;
-	
-	
 	@BeforeClass
 	public void launchNeoStox() throws InterruptedException, IOException
 	{
@@ -68,10 +66,10 @@ public void userID() throws EncryptedDocumentException, IOException
 @Test(priority = -1)
 public void validateAccBalance() throws IOException, InterruptedException
 {
-	Thread.sleep(1000);
+	Thread.sleep(2000);
 Assert.assertNotNull(home.getAccBalance(driver), "TC is failed Unable to fatch Account Balance");	
 //NewUtility.screenshot(driver,"ACCBalance");
-Assert.fail();
+//Assert.fail();
 Reporter.log("========================", true);
 }
 

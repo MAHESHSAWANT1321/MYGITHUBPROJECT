@@ -9,6 +9,7 @@
           <include name="logOutFromNeoStox"/>
           <include name="loginIntoNeoStox"/>
           <include name="launchNeoStox"/>
+          <include name="userID"/>
           <include name="closwBrowser"/>
         </methods>
       </class> <!-- neoStoxTest.NeoStoxValidateMultipleTestCases3 -->
