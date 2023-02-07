@@ -24,6 +24,7 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 	NeoStoxPasswordPage password;
 	NeoStoxHomePage home;
 	NeoStoxSinginPage Singin;
+
 	@BeforeClass
 	public void launchNeoStox() throws InterruptedException, IOException
 	{
@@ -49,8 +50,12 @@ public class NeoStoxValidateMultipleTestCases3  extends NewBase1
 		password.ClickOnSubmitButtons(driver);
 		Thread.sleep(3000);
 		home.handelPopUp(driver);
-		NewUtility.wait(driver, 1000);
+		NewUtility.wait(driver, 3000);
 		}
+	
+	
+	
+	
 	
 	
 @Test
@@ -77,6 +82,13 @@ public void logOutFromNeoStox()
 {
 home.logOut(driver);
 }
+
+
+
+
+
+
+
 
 
 @AfterClass
