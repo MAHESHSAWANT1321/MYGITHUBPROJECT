@@ -82,15 +82,6 @@ public void logOutFromNeoStox()
 {
 home.logOut(driver);
 }
-
-
-
-
-
-
-
-
-
 @AfterClass
 public void closwBrowser()
 {
